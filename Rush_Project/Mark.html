@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>Mark Page</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      background-color: #fff;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #e35205;
+      padding: 10px 20px;
+    }
+
+    header a {
+      text-decoration: none;
+      color: #ffffff;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .content {
+      flex: 1; /* สำคัญ: ดัน footer ลงล่าง */
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .content h1 {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+
+    .content img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      border: 2px solid #ffffff;
+    }
+
+    .info-box {
+      margin: 30px auto 0;
+      max-width: 400px;
+      background-color: #ffffff;
+      border: 1px solid #e35205;
+      border-radius: 8px;
+      padding: 15px;
+      text-align: left;
+      line-height: 1.6;
+    }
+
+    footer {
+      background-color: #e35205;
+      color: #ffffff;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="home.html">KMITL</a>
+    <a href="https://www.instagram.com/mark_18807?igsh=MTByb3loZHY3eWI4dQ==">IG</a>
+  </header>
+
+  <div class="content">
+    <h1>MARK</h1>
+    <img src="https://media.discordapp.net/attachments/1384359355171999888/1385166476792561704/1737341756676.jpg?ex=6855144f&is=6853c2cf&hm=fcf408a422a94d89d1ce7c3aca34ce813dce71736877e0b936452f6cee9702ea&=&format=webp&width=1376&height=774" alt="Mark">
+    <div class="info-box">
+      <p><strong>Name:</strong> นาย เจตน์จันทร์ สมตัว [มาร์ค]</p>
+      <p><strong>About:</strong> เกิด 07/07/2007 อายุ 17 คำพูดประจำตัว โชคดี</p>
+      <p><strong>Hobby:</strong> วาดรูป, เล่นเกม, กิน, นอน, ออกแบบ บ้าน เรือ</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>KMITL</p>
+  </footer>
+
+</body>
+</html>

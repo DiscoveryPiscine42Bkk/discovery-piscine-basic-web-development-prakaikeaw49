@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>Profile Layout</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #e35205;
+      padding: 10px 20px;
+    }
+
+    header a {
+      text-decoration: none;
+      color: #ffffff;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .content {
+      flex: 1; /* ดัน footer ลงล่าง */
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .content img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border: 2px solid #ffffff;
+      border-radius: 10px;
+    }
+
+    .buttons {
+      margin-top: 20px;
+    }
+
+    .buttons a {
+      display: inline-block;
+      margin: 0 10px;
+      padding: 10px 20px;
+      background-color: #ec0c8f;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    footer {
+      background-color: #e35205;
+      color: #ffffff;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="home.html">KMITL</a>
+    <a href="/Rush_Project/Carrot.html">CARROT</a>
+    <a href="/Rush_Project/Mark.html">MARK</a>
+  </header>
+
+  <div class="content">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7Zm15LImGZ4DcerJW3F-_-pvGyLCN-vQs9g&s" alt="Pic">
+    <div class="buttons">
+      <a href="/Rush_Project/Mark.html">MARK</a>
+      <a href="/Rush_Project/Carrot.html">CARROT</a>
+    </div>
+  </div>
+
+  <footer>
+    <p>KMITL</p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+. header {
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 1px 1px 1px 1px;
+    width: 200px;
+}
+
+.img {
+    width: 100%;
+    min-height: 200px
+    bac
+}
+
+.name {
+    font-size: 24px;
+    padding: 20px;
+}
